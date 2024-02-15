@@ -1,0 +1,53 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .prismaAlert {
+    color: #f00;    
+ }
+
+ .kiwop-prisma-result-search-tag {
+    background: #2580ff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 5px; /* Espaciado interno del botón (arriba/abajo, izquierda/derecha) */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+
+
+ .kiwop-prisma-tag-to-save {
+    background: #009002; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 5px; /* Espaciado interno del botón (arriba/abajo, izquierda/derecha) */
+    padding-left: 10px; /* Espaciado interno del botón (arriba/abajo, izquierda/derecha) */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-right:7px;
+  }
+
+  /* Estilo de la imagen dentro del botón */
+  .kiwop-prisma-tag-to-save::after {
+    content: url('close.png'); /* Ruta a tu imagen */
+    margin-left:2px; /* Espaciado entre el texto del botón y la imagen */
+    vertical-align: middle; /* Alinear verticalmente la imagen con el texto */
+    width:12px;
+    height:12px;
+  }
+
+  #PrismaSelectedTags {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .wpcf7 label {
+    width: 100%;    
+  }
