@@ -99,7 +99,7 @@ class Kiwop_Aportacions_Recursos_Public {
 	public function enqueue_scripts() {
 
        
-        $dir = plugin_dir_url("") . $this->plugin_name;
+        $dir = plugin_dir_url("") . 'prisma-contributions';
 
         $file_js = 'js/kiwop-aportacions-recursos-public.js';
         $pathfile =  plugin_dir_path( __FILE__ ) . $file_js;        
