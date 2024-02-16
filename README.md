@@ -1,4 +1,4 @@
-=== PRISMA - CONTRIBUTIONS ===
+# PRISMA - CONTRIBUTIONS
 
 Contributors: antonio@kiwop.com
 
@@ -10,11 +10,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin converts a CF7 form to the selected resource type (Apps, moodle, jclic, etc...)
 
-== Dependencies ==
+## Dependencies 
 
  You need Contact Form 7 (CF7) and Advanced Custom Fields (ACF) installed in your wordpress before activate this plugin
 
-== Installation ==
+## Installation
 
 e.g.
 
@@ -24,7 +24,7 @@ e.g.
 4. Thumbnail image and attached file (if have been choosen) shoud be in the post created.
 
 
-== CF7 - sample form ==
+## CF7 - sample form 
 
 <label> Seleccioneu tipus de recurs
     [select* posttype "App" "JClic" "Moodle" "Classroom" "ExeLearning" "Kudis" "PDIs" "Projectes" "Scorm" "Videos" "En_linea" "Escrits"]
